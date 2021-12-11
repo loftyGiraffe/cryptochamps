@@ -80,7 +80,7 @@ export default function Home() {
                         letterSpacing: "6px",
                     }}
                 >
-                    Whitelist #792
+                    Whitelist #2392
                 </div>
             </div>
             <div
@@ -120,7 +120,7 @@ export default function Home() {
                     fontWeight: '500'
                 }}
             >
-                Total Minted: 842 / 888
+                Total Minted: 2483 / 2500
             </div>
 
             <div
