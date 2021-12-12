@@ -120,7 +120,7 @@ export default function Home() {
                     fontWeight: '500'
                 }}
             >
-                Total Minted: 2483 / 2500
+                Total Minted: 2876 / 2888
             </div>
 
             <div
