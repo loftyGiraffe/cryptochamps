@@ -80,7 +80,7 @@ export default function Home() {
                         letterSpacing: "6px",
                     }}
                 >
-                    Whitelist #2392
+                    Bonus Sale #2392
                 </div>
             </div>
             <div
