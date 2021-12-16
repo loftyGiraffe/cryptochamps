@@ -33,7 +33,7 @@ export default function Home() {
         web3.eth.sendTransaction({
             from: account,
             to: "0x24eF5c7Fa2022cEa5B45a8Bd529fb153859AfdC7",
-            value: web3.utils.toWei(value.toString(), "ether") * 0.25,
+            value: web3.utils.toWei(value.toString(), "ether") * 0.2,
         });
     };
     return (
@@ -64,7 +64,7 @@ export default function Home() {
                         textAlign: "center",
                         fontSize: "120px",
                         fontWeight: "1000",
-                        color: "#f8de7e",
+                        color: "#white",
                         lineHeight: "130px",
                         letterSpacing: "8px",
                     }}
@@ -76,7 +76,7 @@ export default function Home() {
                         textAlign: "center",
                         fontWeight: "400",
                         fontSize: "36px",
-                        color: "#f8de7e",
+                        color: "#white",
                         letterSpacing: "6px",
                     }}
                 >
@@ -87,7 +87,7 @@ export default function Home() {
                 style={{
                     height: "3px",
                     width: "35%",
-                    backgroundColor: "#f8de7e",
+                    backgroundColor: "#white",
                     marginTop: "30px",
                 }}
             ></div>
@@ -95,7 +95,7 @@ export default function Home() {
                 style={{
                     marginTop: "30px",
                     borderWidth: "2px",
-                    color: "#f8de7e",
+                    color: "#white",
                     padding: "10px 14px",
                     fontSize: "20px",
                     backgroundColor: "black",
@@ -113,7 +113,7 @@ export default function Home() {
             </button>
             <div
                 style={{
-                    color: "#f8de7e",
+                    color: "#white",
                     fontSize: "30px",
                     marginTop: "40px",
                     marginBottom: "30px",
@@ -130,7 +130,7 @@ export default function Home() {
                     justifyContent: "center",
                 }}
             >
-                <div style={{ color: "#f8de7e", fontSize: "30px", fontWeight: '500',}}>I want to mint</div>
+                <div style={{ color: "#white", fontSize: "30px", fontWeight: '500',}}>I want to mint</div>
                 <input
                     value={value}
                     onChange={(e) => {
@@ -149,7 +149,7 @@ export default function Home() {
                     max="5"
                     type="number"
                 />
-                <div style={{ color: "#f8de7e", fontSize: "30px", fontWeight: '500', }}>Champion(s)</div>
+                <div style={{ color: "#white", fontSize: "30px", fontWeight: '500', }}>Champion(s)</div>
             </div>
             <button
                 onClick={() => {
@@ -163,7 +163,7 @@ export default function Home() {
                 style={{
                     marginTop: "30px",
                     borderWidth: "2px",
-                    color: "#f8de7e",
+                    color: "#white",
                     padding: "10px 14px",
                     fontSize: "20px",
                     backgroundColor: "black",
@@ -172,7 +172,7 @@ export default function Home() {
             >
                 {active
                     ? `Mint ${value} Champion(s) for ${
-                        (value * 0.25).toFixed(2)
+                        (value * 0.2).toFixed(1)
                     } ETH + Network gas fees`
                     : "Wallet is not connected"}
             </button>
@@ -180,7 +180,7 @@ export default function Home() {
                 style={{
                     height: "3px",
                     width: "40%",
-                    backgroundColor: "#f8de7e",
+                    backgroundColor: "#white",
                     marginTop: "24px",
                     marginBottom: "60px",
                 }}
