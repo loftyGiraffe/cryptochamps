@@ -64,7 +64,7 @@ export default function Home() {
                         textAlign: "center",
                         fontSize: "120px",
                         fontWeight: "1000",
-                        color: "#white",
+                        color: "white",
                         lineHeight: "130px",
                         letterSpacing: "8px",
                     }}
@@ -76,7 +76,7 @@ export default function Home() {
                         textAlign: "center",
                         fontWeight: "400",
                         fontSize: "36px",
-                        color: "#white",
+                        color: "white",
                         letterSpacing: "6px",
                     }}
                 >
@@ -86,7 +86,7 @@ export default function Home() {
                 style={{
                     height: "3px",
                     width: "35%",
-                    backgroundColor: "#white",
+                    backgroundColor: "white",
                     marginTop: "30px",
                 }}
             ></div>
@@ -94,7 +94,7 @@ export default function Home() {
                 style={{
                     marginTop: "30px",
                     borderWidth: "2px",
-                    color: "#white",
+                    color: "white",
                     padding: "10px 14px",
                     fontSize: "20px",
                     backgroundColor: "black",
@@ -112,7 +112,7 @@ export default function Home() {
             </button>
             <div
                 style={{
-                    color: "#white",
+                    color: "white",
                     fontSize: "30px",
                     marginTop: "40px",
                     marginBottom: "30px",
@@ -129,7 +129,7 @@ export default function Home() {
                     justifyContent: "center",
                 }}
             >
-                <div style={{ color: "#white", fontSize: "30px", fontWeight: '500',}}>I want to mint</div>
+                <div style={{ color: "white", fontSize: "30px", fontWeight: '500',}}>I want to mint</div>
                 <input
                     value={value}
                     onChange={(e) => {
@@ -148,7 +148,7 @@ export default function Home() {
                     max="5"
                     type="number"
                 />
-                <div style={{ color: "#white", fontSize: "30px", fontWeight: '500', }}>NFT(s)</div>
+                <div style={{ color: "white", fontSize: "30px", fontWeight: '500', }}>NFT(s)</div>
             </div>
             <button
                 onClick={() => {
@@ -162,7 +162,7 @@ export default function Home() {
                 style={{
                     marginTop: "30px",
                     borderWidth: "2px",
-                    color: "#white",
+                    color: "white",
                     padding: "10px 14px",
                     fontSize: "20px",
                     backgroundColor: "black",
@@ -179,7 +179,7 @@ export default function Home() {
                 style={{
                     height: "3px",
                     width: "40%",
-                    backgroundColor: "#white",
+                    backgroundColor: "white",
                     marginTop: "24px",
                     marginBottom: "60px",
                 }}
