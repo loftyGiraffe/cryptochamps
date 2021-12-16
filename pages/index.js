@@ -80,7 +80,6 @@ export default function Home() {
                         letterSpacing: "6px",
                     }}
                 >
-                    Bonus Sale #2392
                 </div>
             </div>
             <div
@@ -120,7 +119,7 @@ export default function Home() {
                     fontWeight: '500'
                 }}
             >
-                Total Minted: 2876 / 2888
+                Total Minted: 482 / 500
             </div>
 
             <div
@@ -149,7 +148,7 @@ export default function Home() {
                     max="5"
                     type="number"
                 />
-                <div style={{ color: "#white", fontSize: "30px", fontWeight: '500', }}>Champion(s)</div>
+                <div style={{ color: "#white", fontSize: "30px", fontWeight: '500', }}>NFT(s)</div>
             </div>
             <button
                 onClick={() => {
@@ -171,7 +170,7 @@ export default function Home() {
                 }}
             >
                 {active
-                    ? `Mint ${value} Champion(s) for ${
+                    ? `Mint ${value} NFT(s) for ${
                         (value * 0.2).toFixed(1)
                     } ETH + Network gas fees`
                     : "Wallet is not connected"}
