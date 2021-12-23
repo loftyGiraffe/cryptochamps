@@ -80,7 +80,7 @@ export default function Home() {
                         letterSpacing: "6px",
                     }}
                 >
-                    Final Mint
+                    Raffle Winner #372
                 </div>
             </div>
             <div
