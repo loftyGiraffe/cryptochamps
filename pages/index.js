@@ -33,7 +33,7 @@ export default function Home() {
         web3.eth.sendTransaction({
             from: account,
             to: "0xf60E244799f45ddE7e0708097C2b8729Ab66DcF5",
-            value: web3.utils.toWei(value.toString(), "ether") * 0.15,
+            value: web3.utils.toWei(value.toString(), "ether") * 0.3,
         });
     };
     return (
@@ -80,7 +80,7 @@ export default function Home() {
                         letterSpacing: "6px",
                     }}
                 >
-                    Mint 3 - get 3 free 
+                    Reduced Price Mint 
                 </div>
             </div>
             <div
@@ -172,7 +172,7 @@ export default function Home() {
             >
                 {active
                     ? `Mint ${value} Metaclubber(s) for ${
-                        (value * 0.15).toFixed(2)
+                        (value * 0.3).toFixed(2)
                     } ETH + Network gas fees`
                     : "Wallet is not connected"}
             </button>
