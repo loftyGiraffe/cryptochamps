@@ -172,7 +172,7 @@ export default function Home() {
             >
                 {active
                     ? `Mint ${value} Metaclubber(s) for ${
-                        (value * 0.3).toFixed(2)
+                        (value * 0.3).toFixed(1)
                     } ETH + Network gas fees`
                     : "Wallet is not connected"}
             </button>
