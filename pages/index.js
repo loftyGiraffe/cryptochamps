@@ -149,7 +149,7 @@ export default function Home() {
                     max="5"
                     type="number"
                 />
-                <div style={{ color: "white", fontSize: "30px", fontWeight: '500', }}>NFT(s)</div>
+                <div style={{ color: "white", fontSize: "30px", fontWeight: '500', }}>Metaclubber(s)</div>
             </div>
             <button
                 onClick={() => {
@@ -171,7 +171,7 @@ export default function Home() {
                 }}
             >
                 {active
-                    ? `Mint ${value} NFT(s) for ${
+                    ? `Mint ${value} Metaclubber(s) for ${
                         (value * 0.15).toFixed(2)
                     } ETH + Network gas fees`
                     : "Wallet is not connected"}
