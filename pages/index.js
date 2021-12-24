@@ -80,7 +80,7 @@ export default function Home() {
                         letterSpacing: "6px",
                     }}
                 >
-                    Reduced Price Mint 
+                    Mint 3 get 3 Free
                 </div>
             </div>
             <div
